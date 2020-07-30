@@ -1,0 +1,61 @@
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+} */
+
+:root {
+    --light-green:#299;
+    --dark-green:#277;
+    --dark-blue:#00008B; 
+  }
+  
+  *{
+    font-family: 'Jura', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  /*common start*/  
+  .common {
+    text-align: center;
+    background: #003366;
+    color: white;
+    padding: 80px; 
+  }
+  /*common ends*/
+
+  /*for contact page start*/
+  .cont{
+    color: lightseagreen;
+  }
+
+  input[type=text] , input[type=number], input[type=email]{
+    padding: 15px;
+    background-color: #F8F8F8;
+    border: 2px solid #ccc;
+    }
+/*for contact page end*/
+
+/*footer start*/
+   .footer-inside{
+           font-weight: 800!important;
+           letter-spacing: 0.01px; 
+       }
+      
+  .hrtag{
+         border-top: 1px solid #f66b34;
+         margin: 20px 0px 20px 0;
+       }
+/*footer ends*/
+/*home page start*/
+   .bat {
+    display:inline-flex;
+    padding-top: 30px; 
+    margin-bottom: 250px;
+  }
+/*home page end*/
+
